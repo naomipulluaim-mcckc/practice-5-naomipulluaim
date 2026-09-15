@@ -1,4 +1,11 @@
+/*My colors.
+    ink #1d1b18
+    paper #fbf8f3
+    bone #efe9df
+    accent #1b858f
+    muted #6b6560*/
 * {
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
@@ -6,7 +13,7 @@
 body {
     background: #fbf8f3;
     color: #1d1b18;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"Neuton", Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3 {
@@ -15,8 +22,46 @@ h1, h2, h3 {
     
 }
 
+.site-nav {
+    background: #1d1b18;
+}
+
+.site-nav ul {
+    list-style: none;
+    display: grid;
+    grid-template: auto / auto auto auto auto auto;
+    gap: 34px;
+    width: max-content;
+}
+
+
+/*Fonts*/
 .modak-regular {
   font-family: "Modak", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+.neuton-regular {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.neuton-bold {
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.neuton-extrabold {
+  font-family: "Neuton", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.neuton-regular-italic {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: italic;
 }
