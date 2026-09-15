@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #fbf8f3;
+    color: #1d1b18;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family:"Modak", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    
+}
+
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
