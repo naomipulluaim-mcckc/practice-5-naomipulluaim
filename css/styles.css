@@ -82,11 +82,32 @@ main {
 }
 
 h1 {
+    font-size: 54px;
+    line-height: 1.05;
+}
+
+.eyebrow {
     font-size: 13px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #1b858f;
     margin-bottom: 10px;
+}
+
+.lede {
+    font-size: 20px;
+    color: #6b6560;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 12px;
+    background: #1b858f;
+    color: #fbf8f3;
+    text-decoration: none;
+    padding: 13px 22px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 /*Fonts*/
