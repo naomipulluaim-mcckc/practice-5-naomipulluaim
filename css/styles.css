@@ -48,8 +48,8 @@ main {
 }
 
 .site-footer {
-    background: black;
-    color: white;
+    background: #1d1b18;
+    color: #fbf8f3;
 }
 
 .site-footer .inner {
@@ -61,7 +61,7 @@ main {
 }
 
 .site-footer a {
-    color: white;
+    color: #fbf8f3;
 }
 
 .site-footer .right {
@@ -133,7 +133,7 @@ h1 {
 }
 
 .card h3 {
-    margin: 14px 0 16px
+    margin: 14px 0 6px
 }
 
 .card p {
@@ -205,11 +205,6 @@ h1 {
     color: #6b6560;
 }
 
-
-
-
-
-
 /*Fonts*/
 .modak-regular {
   font-family: "Modak", system-ui;
@@ -241,4 +236,3 @@ h1 {
   font-style: italic;
 }
 /*end of fonts*/
-
